@@ -2,7 +2,7 @@
 ICL, also known as Iframe Cookie Logging is a method that gets cookies in a iframe element. ICL is really easy to implement as it uses built-in JS functions. We load the iframe and we can get the cookies in it.
 
 ### Should i worry about this method?
-No, most websites like ROBLOX, Twitter and other sites have implemented a feature that blocks any third party iframes from accessing its contents which prevents this method from being used.
+No, most websites like ROBLOX, Twitter and other sites have implemented a feature that blocks any third party iframes from accessing its contents which prevents this method from being used. And yes this only works on IE, (maybe legacy microsoft edge) and yeah.
 
 
 ````js
